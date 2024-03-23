@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#taskbare {
+    
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}   
+#taskbare a{
+    height: 20px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 12px;
+    padding: 0;
+    color: rgb(8, 3, 20);
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+   
+}
+#taskbare img{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+video{
+    width: 1265px;
+    height: 100vp;
+    object-fit: cover;
+    position: fixed;
+    
+}
+#main{
+    background-color:rgba(0, 0, 0, 0.959)
+    position: relative;
+}
+#page1{
+    
+    height: 60vh;
+    width: 200vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#page1 h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#page1 h4{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#page2{
+    background-color: aqua;
+    height: 60vh;
+    width: 200vh;
+    display: flex;
+   
+}
+
+    
+#taskbare a:hover{
+    color: rgb(5, 20, 6);
+}
+.sticky{
+   background-color: black;
+
+}
